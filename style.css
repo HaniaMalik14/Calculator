@@ -1,14 +1,18 @@
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: bisque;
+body {
+    font-family: "Anonymous Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url("purple.webp");
 }
-#container{
+
+#container {
     width: 1000px;
     height: 550px;
     background-image: url("background.jpg");
     margin: 20px auto;
 }
-#calculator{
+
+#calculator {
     width: 320px;
     height: 520px;
     background-color: bisque;
@@ -18,10 +22,14 @@ body{
     border-radius: 5px;
     box-shadow: 5px 5px 5px coral;
 }
-#keyboard{
+
+#keyboard {
     height: 400px;
 }
-.operator,.numbers,.empty{
+
+.operator,
+.numbers,
+.empty {
     width: 50px;
     height: 50px;
     margin: 15px;
@@ -29,20 +37,99 @@ body{
     border-radius: 50%;
     border-width: 0;
     font-weight: bold;
-    font-size: 15px;
-}
-.numbers{
-    background-color: rgb(245, 182, 237);
-}
-.empty{
-    background-color: bisque;
-}
-.numbers,.operator{
-    cursor: pointer;
-}
-.operator:active,.numbers:active{
     font-size: 20px;
 }
-.operator:focus,.numbers:focus,.empty:focus{
+
+.numbers {
+    background-color: rgb(245, 182, 237);
+}
+
+.empty {
+    background-color: bisque;
+}
+
+.numbers,
+.operator {
+    cursor: pointer;
+}
+
+.operator:active,
+.numbers:active {
+    font-size: 20px;
+}
+
+.operator:focus,
+.numbers:focus,
+.empty:focus {
     outline: 0;
 }
+
+#result {
+    height: 120px;
+}
+
+#output {
+    text-align: center;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+button:nth-child(4) {
+    font-size: 20px;
+    background-color: rgb(110, 240, 234);
+}
+
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: rgb(129, 240, 110);
+}
+
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: rgb(240, 227, 110);
+}
+
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: rgb(240, 186, 110);
+}
+
+button:nth-child(20) {
+    font-size: 20px;
+    background-color: rgb(240, 110, 110);
+}
+
+button:nth-child(1) {
+    font-size: 20px;
+    background-color: rgb(226, 50, 50);
+}
+
+button:nth-child(2) {
+    font-size: 20px;
+    background-color: rgb(240, 110, 203);
+}
+
+button:nth-child(3) {
+    font-size: 20px;
+    background-color: rgb(226, 46, 73);
+}
+h1{
+    text-align: center;
+    text-decoration-color: brown;
+    color: rgb(126, 8, 8);
+    font-size: 50px ;
+    padding: 50px;
+    margin: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+#icon{
+    color: black;
+    font-size: 60px;
+}
+p{
+    margin-left: 120px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+

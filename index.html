@@ -7,11 +7,26 @@
     <title>Hania's Calculator</title>
     <link rel="icon" type="image/x-icon" href="background.jpg">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Lexend+Giga:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <div>
+        <h1><i id="icon" class="fa-solid fa-calculator"></i> Calculator <i id="icon" class="fa-solid fa-calculator"></i></h1>
+    </div>
     <div id="container">
         <div id="calculator">
+            <div id="result">
+             <div id="history">
+                <p id="history-value"></p>
+             </div>
+             <div id="output">
+              <p id="output-value"></p>
+             </div>
+            </div>
             <div id="keyboard">
              <button class="operator" id="clear">C</button>
              <button class="operator" id="backspace">CE</button>
@@ -36,6 +51,9 @@
             </div>
         </div>
     </div>
+    <script src="script.js">
+
+    </script>
 </body>
 
 </html>
